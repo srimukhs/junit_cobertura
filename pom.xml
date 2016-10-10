@@ -35,6 +35,9 @@
                                 </goals>
                             </execution>
                         </executions>
+		<configuration>
+                <destFile>${sonar.cobertura.reportPath}</destFile>
+            </configuration>
                     </plugin>
 			 
     </plugins>
