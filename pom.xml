@@ -10,7 +10,7 @@
 	<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	 
-	  <sonar.cobertura.reportPath>**/target/site/cobertura/coverage.xml</sonar.cobertura.reportPath>
+	  
   </properties>
 	<dependencies>
 		<dependency>
@@ -28,7 +28,7 @@
                         <version>2.2</version>
                         <configuration>
                             <formats>
-                                <format>xml</format>
+                                <format>html</format>
                             </formats>
                         </configuration>
                         <executions>
